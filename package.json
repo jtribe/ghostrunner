@@ -14,6 +14,11 @@
     "cli",
     "ndm"
   ],
+  "files": [
+    "lib",
+    "blueprints",
+    "*.md"
+  ],
   "author": "@aexmachina",
   "license": "MIT",
   "dependencies": {

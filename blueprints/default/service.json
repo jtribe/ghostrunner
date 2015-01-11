@@ -5,7 +5,7 @@
       "start": "node index"
     },
     "env": {
-      "PORT": 2368
+      "NODE_ENV": "production"
     }
   }
 }

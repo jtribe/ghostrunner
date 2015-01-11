@@ -1,6 +1,6 @@
 {
   "name": "ghostrunner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI for the Ghost blogging platform",
   "main": "lib/cli.js",
   "scripts": {

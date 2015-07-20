@@ -7,13 +7,13 @@ service wrappers (upstart, launchctl or initctl) so that the server is started o
 
 ## Usage
 
-```
+```sh
 npm install -g ghostrunner`
 ```
 
 ### Creating a Blog
 
-```
+```sh
 mkdir somewhere && cd somewhere
 ghostrunner init
 ghostrunner server
@@ -23,7 +23,7 @@ ghostrunner server
 
 ### Installing the Blog as a Service
 
-```
+```sh
 ghostrunner install # uses ndm to install the appropriate service wrapper for your OS
 ghostrunner start # to start the server now
 ```

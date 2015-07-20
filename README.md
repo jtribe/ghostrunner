@@ -32,11 +32,7 @@ ghostrunner start # to start the server now
 
 1. Install ghostrunner on the server: `sudo npm install -g ghostrunner`
 1. Deploy the blog to your server and `cd` into the directory
-1. Run:
-
-    ```sh
-    npm install && sudo ghostrunner install && sudo ghostrunner start
-    ```
+1. `npm install && sudo ghostrunner install && sudo ghostrunner start`
 1. Check that it runs on system startup: `reboot`
 
 ## Troubleshooting

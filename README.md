@@ -8,7 +8,7 @@ service wrappers (upstart, launchctl or initctl) so that the server is started o
 ## Usage
 
 ```sh
-npm install -g ghostrunner`
+npm install -g ghostrunner
 ```
 
 ### Creating a Blog

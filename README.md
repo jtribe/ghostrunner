@@ -7,13 +7,13 @@ service wrappers (upstart, launchctl or initctl) so that the server is started o
 
 ## Usage
 
-```
-npm install -g ghostrunner`
+```sh
+npm install -g ghostrunner
 ```
 
 ### Creating a Blog
 
-```
+```sh
 mkdir somewhere && cd somewhere
 ghostrunner init
 ghostrunner server
@@ -23,7 +23,7 @@ ghostrunner server
 
 ### Installing the Blog as a Service
 
-```
+```sh
 ghostrunner install # uses ndm to install the appropriate service wrapper for your OS
 ghostrunner start # to start the service now
 ```
@@ -32,10 +32,7 @@ ghostrunner start # to start the service now
 
 1. Install ghostrunner on the server: `sudo npm install -g ghostrunner`
 1. Deploy the blog to your server and `cd` into the directory
-1. Run:
-    ```sh
-    npm install && sudo ghostrunner install && sudo ghostrunner start
-    ```
+1. `npm install && sudo ghostrunner install && sudo ghostrunner start`
 1. Confirm that it runs on system startup by rebooting
 
 ## Troubleshooting

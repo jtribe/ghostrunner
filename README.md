@@ -25,7 +25,7 @@ ghostrunner server
 
 ```
 ghostrunner install # uses ndm to install the appropriate service wrapper for your OS
-ghostrunner start # to start the server now
+ghostrunner start # to start the service now
 ```
 
 ## Deployment
@@ -36,7 +36,7 @@ ghostrunner start # to start the server now
     ```sh
     npm install && sudo ghostrunner install && sudo ghostrunner start
     ```
-1. Check that it runs on system startup: `reboot`
+1. Confirm that it runs on system startup by rebooting
 
 ## Troubleshooting
 

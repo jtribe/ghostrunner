@@ -21,7 +21,7 @@ ghostrunner server
 
 `ghostrunner init` will not overwrite any files - if you want to overwrite files then remove them first.
 
-### Installing the Blog as a Service
+### Installing the blog as a service
 
 ```sh
 ghostrunner install # uses ndm to install the appropriate service wrapper for your OS
@@ -35,13 +35,13 @@ ghostrunner start # to start the service now
 1. `npm install && sudo ghostrunner install && sudo ghostrunner start`
 1. Confirm that it runs on system startup by rebooting
 
-### Running as root
+### Specifying user and group
 
-If you want to run your blog on port 80 without using a web server then it will need to run as a 
-privileged user:
+If you want to run your blog as a different user you can use the `--uid` and `--gid` options. Be 
+aware that running as root is probably a very bad idea.
 
 ```sh
-ghostrunner install --uid root --gid root
+ghostrunner install --uid myuser --gid myuser
 ```
 
 ## Troubleshooting

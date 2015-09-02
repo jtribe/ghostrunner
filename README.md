@@ -35,6 +35,15 @@ ghostrunner start # to start the service now
 1. `npm install && sudo ghostrunner install && sudo ghostrunner start`
 1. Confirm that it runs on system startup by rebooting
 
+### Running as root
+
+If you want to run your blog on port 80 without using a web server then it will need to run as a 
+privileged user:
+
+```sh
+ghostrunner install --uid root --gid root
+```
+
 ## Troubleshooting
 
 - If you change the package name (in package.json) you will also need to change the `ghostrunner-blog` key in service.json

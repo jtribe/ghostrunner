@@ -5,6 +5,9 @@
 Ghostrunner is a command-line application that can create Ghost blogs, and provides OS-specific
 service wrappers (upstart, launchctl or initctl) so that the server is started on system startup.
 
+See [this blog article](http://blog.jtribe.com.au/ghost-blog-on-aws/) for detailed setup 
+instructions for AWS.
+
 ## Usage
 
 ```sh
